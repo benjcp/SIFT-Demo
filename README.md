@@ -1,7 +1,7 @@
 # SIFT-Demo
 
 Build Instructions:
-1. Download the OpenCV C# wrapper from https://sourceforge.net/projects/emgutf/files/
+1. Download the OpenCV C# wrapper from https://sourceforge.net/projects/emgucv/files/latest/download
 2. Install the OpenCV Wrapper.
 3. Once Installed, Goto C:\Emgu\emgucv-windesktop 3.4.1.2976\bin\x64 and copy the .DLLs to the Lib folder in SIFT-Demo
 4. Open the project in Visual Studio 2017
