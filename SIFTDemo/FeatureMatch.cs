@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace SIFTDemo
 {
-    class FeatureMatch
+    public class FeatureMatch
     {
 
         //Method that takes 2 images, gets the features from the model Image and then detects similar features on the second image

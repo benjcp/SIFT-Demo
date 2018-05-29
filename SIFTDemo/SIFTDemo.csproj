@@ -50,11 +50,11 @@
   <ItemGroup>
     <Reference Include="Emgu.CV.UI, Version=3.4.1.2976, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>lib\Emgu.CV.UI.dll</HintPath>
+      <HintPath>libs\Emgu.CV.UI.dll</HintPath>
     </Reference>
     <Reference Include="Emgu.CV.World, Version=3.4.1.2976, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>lib\Emgu.CV.World.dll</HintPath>
+      <HintPath>libs\Emgu.CV.World.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -69,7 +69,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="ZedGraph, Version=5.1.5.28844, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>lib\ZedGraph.dll</HintPath>
+      <HintPath>libs\ZedGraph.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +94,7 @@
     <EmbeddedResource Include="SIFT.resx">
       <DependentUpon>SIFT.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="libs\cvextern.lib" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -113,6 +114,9 @@
     <Content Include="libs\msvcp140.dll" />
     <Content Include="libs\opencv_ffmpeg341_64.dll" />
     <Content Include="libs\vcruntime140.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="imgs\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
