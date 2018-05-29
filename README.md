@@ -13,4 +13,4 @@ Build Instructions:
 NOTE** THIS APPLICATION WILL NOT RUN WHEN BUILDING THE APPLICATION IN 32BIT. 
 IT WILL ONLY WORK WHEN BUILT WITH 64BIT.
 
-If you have any issues installing the application, please visit: http://www.emgu.com/wiki/index.php/Download_And_Installation
+If you have any issues running the application in Visual Studio, please visit: http://www.emgu.com/wiki/index.php/Download_And_Installation
